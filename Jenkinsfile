@@ -1,3 +1,5 @@
+// http://localhost:44444/env-vars.html/
+// source of variables that jenkins use and the can be used in jenkins file
 pipeline {
   agent any
  
