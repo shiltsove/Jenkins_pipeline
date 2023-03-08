@@ -8,4 +8,9 @@ pipeline {
       }
     }
   }
+//   will be executed after all stages are  passed
+  
+  post {
+    echo 'Post message'
+  }
 }
