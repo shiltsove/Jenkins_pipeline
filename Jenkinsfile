@@ -8,9 +8,13 @@ pipeline {
       }
     }
   }
-//   will be executed after all stages are  passed
+//   will be executed after all stages are done
   
   post {
-    echo 'Post message'
+    always {
+//       will be executed regardles stages are succefull or failed
+      echo 'Post message'
+    }
+    
   }
 }
